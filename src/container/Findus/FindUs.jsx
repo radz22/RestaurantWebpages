@@ -1,0 +1,29 @@
+import React from 'react';
+import { SubHeading } from '../../components';
+import { images } from '../../constants'
+const FindUs = () => (
+  <div className='app__findus app__wrapper section__padding flex__center app__bg'>
+     
+      <div className='app__wrapper_info'>
+      
+        <SubHeading title="Contactspoon_image"/>
+        <h1 className='headtext__cormorant'>Find Us</h1>
+
+        <div className='app__findus-container'> 
+        <p className='p__opensans'>Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 75G</p>
+        <p className='p__cormorant' style={{color: 'rgba(220, 202, 135)', margin:'2rem 0'}}>Opening Hours</p>
+        <p className='p__opensans'>Mon - Fri: 10:00 am - 02:00 am</p>
+        <p className='p__opensans'>Sat - Sun: 10:00 am - 03:00 am</p>
+        </div>
+      
+       <button type='button' className='custom__button' style={{marginTop:'2rem'}}>Visit Us</button>
+      </div>
+    
+    <div className='app__wrapper_img'>
+   <img src={images.findus} alt='findus img'/>
+    </div>
+
+  </div>
+);
+
+export default FindUs;

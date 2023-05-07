@@ -1,0 +1,87 @@
+
+
+.app__wrapper_info{
+    margin: 0 50px;
+    
+}
+
+.app__chef_content-quote{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.app__chef-quote {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.app__chef-quote img{
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+
+.app__chefname{
+   width: 100%;
+   margin-top: 3rem;
+}
+
+.app__chefname h2{
+    font-size: 30px;
+    color: var(--color-golden);
+    font-weight: 400;
+    font-family: var(--font-base);
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+}
+
+.app__chefname img{
+    width: 250px;
+    margin-top: 3rem;
+}
+
+
+/* Media query */
+
+@media screen and (max-width: 1150px){
+
+    .app__wrapper_img img{
+        margin: 5rem 20px;
+
+      }
+}
+
+
+
+
+
+@media screen and (max-width: 650px){
+  .app__chef-quote img{
+    width: 30px;
+    height: 20px;
+  }
+
+  .headtext__cormorant h1 {
+    font-size: 45px;
+    line-height: 70px;
+  }
+
+  .app__chefname img{
+    width: 170px;
+    margin-top: 2rem;
+  }
+
+  .app__chef-text{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 481px){
+    .app__chef-text .headtext__cormoran{
+        font-size: 40px;
+    }
+}
